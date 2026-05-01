@@ -9,7 +9,7 @@ _SWITCH_COMMANDS = {
 }
 
 
-def _custom_help():
+def _custom_help() -> list[tuple[str, str]]:
     return [
         ("plan", "Switch to planning-agent for task breakdown"),
         ("lead", "Switch to pack-leader for multi-agent orchestration"),
